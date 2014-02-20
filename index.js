@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var Manager = require('event-manager')
-  , inherit = require('inherit')
-  , delegate = require('delegate')
+var Manager = require('component-event-manager')
+  , inherit = require('component-inherit')
+  , delegate = require('component-delegate')
   , unbind = Manager.prototype.unbind
   , bind = Manager.prototype.bind
 
